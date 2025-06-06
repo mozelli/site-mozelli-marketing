@@ -12,9 +12,10 @@ const Hero = () => {
       <div className="max-w-[550px]">
         <p className="text-xl sm:text-2xl text-center mb-4">
           Na <strong className="font-bold">Mozelli Marketing</strong>,
-          conectamos <span className="text-primary">criatividade</span>,
-          <span className="text-primary"> estratégia</span> e{" "}
-          <span className="text-primary">tecnologia </span>
+          conectamos{" "}
+          <span className="text-primary font-semibold">criatividade</span>,
+          <span className="text-primary font-semibold"> estratégia</span> e{" "}
+          <span className="text-primary font-semibold">tecnologia </span>
           para impulsionar o crescimento do seu negócio.{" "}
         </p>
         <p className="text-center sm:mt-2 text-neutral-700 mb-4 ">
