@@ -2,6 +2,7 @@ import { Button } from "@/components/ui/button";
 import Typewriter from "typewriter-effect";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
+import Solutions from "./components/Solutions";
 
 export default function Home() {
   return (
@@ -12,8 +13,8 @@ export default function Home() {
           <Hero />
         </div>
       </section>
-      <section className="bg-amber-300 h-screen">
-        <h1>Serviços</h1>
+      <section className="h-screen">
+        <Solutions />
       </section>
       <section>
         <h1>Social Media</h1>
