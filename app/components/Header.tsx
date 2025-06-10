@@ -3,6 +3,15 @@ import Image from "next/image";
 
 import { Separator } from "@/components/ui/separator";
 import { Button } from "@/components/ui/button";
+import {
+  Sheet,
+  SheetContent,
+  SheetHeader,
+  SheetTitle,
+  SheetTrigger,
+} from "@/components/ui/sheet";
+
+import { Command, CommandList, CommandItem } from "@/components/ui/command";
 
 const Header = () => {
   return (
@@ -34,7 +43,7 @@ const Header = () => {
         <div className="flex">
           <Link
             href="#"
-            className="border-b-2 border-b-slate-100 hover:border-b-amber-500 transition"
+            className="font-semibold border-b-2 border-b-slate-100 hover:border-b-amber-500 transition"
           >
             Página inicial
           </Link>
@@ -42,29 +51,62 @@ const Header = () => {
         <Separator orientation="vertical" />
         <Link
           href="#"
-          className="border-b-2 border-b-slate-100 hover:border-b-amber-500 transition"
+          className="font-semibold border-b-2 border-b-slate-100 hover:border-b-amber-500 transition"
         >
-          Serviços
+          Soluções
         </Link>
         <Separator orientation="vertical" />
         <Link
           href="#"
-          className="border-b-2 border-b-slate-100 hover:border-b-amber-500 transition"
+          className="font-semibold border-b-2 border-b-slate-100 hover:border-b-amber-500 transition hover:text"
         >
           Contato
         </Link>
-        <Button className="ml-2 hover:cursor-pointer bg-amber-500 hover:bg-amber-600">
+        <Button className="font-semibold ml-2 hover:cursor-pointer bg-lime-600 hover:bg-lime-700">
           Fale conosco
         </Button>
       </div>
 
       <div className="sm:hidden">
-        <Image
-          alt="ícone hamburguer para abrir o menu."
-          src="/svg-icons/hamburger_icon.svg"
-          width={32}
-          height={32}
-        />
+        <Sheet>
+          <SheetTrigger>
+            <Image
+              alt="ícone hamburguer para abrir o menu."
+              src="/svg-icons/hamburger_icon.svg"
+              width={32}
+              height={32}
+            />
+          </SheetTrigger>
+          <SheetContent className="p-2">
+            <SheetHeader>
+              <SheetTitle className="text-primary">Menu</SheetTitle>
+            </SheetHeader>
+            <Command className="">
+              <CommandList>
+                <CommandItem className="py-4">
+                  <Link href="#" className="w-full">
+                    <span className="font-semibold">Página inicial</span>
+                  </Link>
+                </CommandItem>
+                <CommandItem className="py-4">
+                  <Link href="#" className="w-full">
+                    Soluções
+                  </Link>
+                </CommandItem>
+                <CommandItem className="py-4">
+                  <Link href="#" className="w-full">
+                    Contato
+                  </Link>
+                </CommandItem>
+                <CommandItem className="py-4">
+                  <Link href="#" className="w-full">
+                    Fala conosco
+                  </Link>
+                </CommandItem>
+              </CommandList>
+            </Command>
+          </SheetContent>
+        </Sheet>
       </div>
     </header>
   );

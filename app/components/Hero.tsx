@@ -3,7 +3,6 @@ import { Button } from "@/components/ui/button";
 const Hero = () => {
   return (
     <div className="flex flex-col items-center h-screen justify-center">
-      {/*<div className="w-1/2">*/}
       <h2 className="text-4xl sm:text-5xl font-bold mb-6 text-center">
         Transformamos <span className="text-primary">ideias</span>
         <br /> em
@@ -29,7 +28,6 @@ const Hero = () => {
           Solicite uma consultoria gratuita
         </Button>
       </div>
-      {/*</div>*/}
     </div>
   );
 };

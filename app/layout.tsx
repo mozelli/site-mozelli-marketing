@@ -2,15 +2,10 @@ import type { Metadata } from "next";
 import { Nunito_Sans } from "next/font/google";
 import "./globals.css";
 
-const geistSans = Nunito_Sans({
+const nunito_sans = Nunito_Sans({
   variable: "--font-nunito-sans",
   subsets: ["latin"],
 });
-
-/*const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});*/
 
 export const metadata: Metadata = {
   title: "Mozelli Marketing",
@@ -24,8 +19,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className={`${geistSans.variable} antialiased`}>{children}</body>
+    <html lang="pt-BR">
+      <body className={`${nunito_sans.variable} antialiased`}>{children}</body>
     </html>
   );
 }
