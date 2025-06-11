@@ -77,10 +77,10 @@ const Pain = () => {
             </Card>
           </li>
         </ul>
-        <p className="mb-2 text-center lg:text-xl lg:pt-4">
+        <p className="pt-6 pb-2 text-center md:pt-4 lg:text-xl lg:pt-4">
           Não se preocupe! Muitos pet shops enfrentam esses desafios.
         </p>
-        <p className="text-center lg:text-xl lg:pt-4">
+        <p className="text-center mb-4 lg:text-xl lg:pt-4">
           A boa notícia é que o{" "}
           <strong className="text-primary">Marketing Digital</strong> é a
           estratégia que faltava para prender a atenção do seu público.
