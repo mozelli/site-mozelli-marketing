@@ -15,7 +15,7 @@ import { Command, CommandList, CommandItem } from "@/components/ui/command";
 
 const Header = () => {
   return (
-    <header className="flex items-center justify-between">
+    <header className="flex items-center justify-between h-10">
       {/* BRAND */}
       <h1 className="text-3xl font-bold text-primary">mozelli.</h1>
       {/* REDES SOCIAIS */}
