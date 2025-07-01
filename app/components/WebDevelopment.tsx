@@ -61,20 +61,13 @@ const WebDevelopment = () => {
         Chame agora no WhatsApp e converse com um consultor!
       </p>
       <div className="px-4 my-5 text-center">
-        <Button
-          variant="outline"
-          size="lg"
-          className="bg-green-700 hover:bg-green-800 hover:cursor-pointer hover:text-white py-6 text-white text-xl"
+        <a
+          href="https://wa.me/5531998555602"
+          target="_blank"
+          className="bg-green-700 hover:bg-green-800 hover:cursor-pointer hover:text-white py-2 px-4 font-medium rounded text-white text-xl"
         >
           WhatsApp
-          <Image
-            src={WhatsAppIcon}
-            alt="Ícone do WhatsApp"
-            width={24}
-            height={24}
-            className="ml-4"
-          />
-        </Button>
+        </a>
       </div>
     </div>
   );

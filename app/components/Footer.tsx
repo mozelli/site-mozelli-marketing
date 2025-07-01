@@ -11,7 +11,7 @@ const Footer = () => {
         </div>
         <div className="">
           <h2 className="font-bold">Contatos:</h2>
-          <strong>Telefone/WhatsApp:</strong> (31) 9 9999-9999 <br />
+          <strong>Telefone/WhatsApp:</strong> (31) 9 9885-5602 <br />
           <strong>E-mail:</strong> comercial@mozellimarketing.com.br
         </div>
       </address>

@@ -69,9 +69,13 @@ const Header = () => {
         >
           Gestão de Redes Sociais
         </Link>
-        <Button className="font-semibold ml-2 hover:cursor-pointer bg-lime-600 hover:bg-lime-700">
+        <a
+          href="https://wa.me/5531998855602"
+          target="_blank"
+          className="font-semibold ml-2 hover:cursor-pointer bg-lime-600 hover:bg-lime-700 p-2 rounded text-white"
+        >
           Fale conosco
-        </Button>
+        </a>
       </div>
 
       <div className="lg:hidden">
@@ -111,9 +115,13 @@ const Header = () => {
                   </Link>
                 </CommandItem>
                 <CommandItem className="py-4">
-                  <Link href="#" className="w-full">
-                    Fala conosco
-                  </Link>
+                  <a
+                    href="https://wa.me/5531985597586"
+                    target="_blank"
+                    className="w-full"
+                  >
+                    Fale conosco
+                  </a>
                 </CommandItem>
               </CommandList>
             </Command>
