@@ -20,7 +20,7 @@ const Header = () => {
       <h1 className="text-3xl font-bold text-primary">mozelli.</h1>
       {/* REDES SOCIAIS */}
       <div className="flex items-center gap-2">
-        <a href="https://web.facebook.com/mozellimkt" target="_blank">
+        <a href="https://www.facebook.com/mozellimkt" target="_blank">
           <div className="border-2 rounded-full p-1">
             <Image
               alt="ícone do Facebook"

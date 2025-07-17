@@ -49,7 +49,7 @@ const Hero = () => {
       </div>
 
       <div className="text-center">
-        <a href="https://wa.me/5531998555602" target="_blank">
+        <a href="https://wa.link/yckqvx" target="_blank">
           <Button className="bg-amber-500 hover:bg-amber-600 hover:cursor-pointer font-semibold py-6">
             Converse com um consultor
           </Button>
