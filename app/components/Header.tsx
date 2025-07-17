@@ -20,23 +20,27 @@ const Header = () => {
       <h1 className="text-3xl font-bold text-primary">mozelli.</h1>
       {/* REDES SOCIAIS */}
       <div className="flex items-center gap-2">
-        <div className="border-2 rounded-full p-1">
-          <Image
-            alt="ícone do Facebook"
-            src="/svg-icons/facebook_icon.svg"
-            width={24}
-            height={24}
-            className="fill-amber-600"
-          />
-        </div>
-        <div className="border-2 rounded-full p-1">
-          <Image
-            alt="ícone do Facebook"
-            src="/svg-icons/instagram_icon.svg"
-            width={24}
-            height={24}
-          />
-        </div>
+        <a href="https://web.facebook.com/mozellimkt" target="_blank">
+          <div className="border-2 rounded-full p-1">
+            <Image
+              alt="ícone do Facebook"
+              src="/svg-icons/facebook_icon.svg"
+              width={24}
+              height={24}
+              className="fill-amber-600"
+            />
+          </div>
+        </a>
+        <a href="https://www.instagram.com/mozelli.marketing/">
+          <div className="border-2 rounded-full p-1">
+            <Image
+              alt="ícone do Facebook"
+              src="/svg-icons/instagram_icon.svg"
+              width={24}
+              height={24}
+            />
+          </div>
+        </a>
       </div>
       {/* MENU */}
       <div className="h-5 items-center space-x-4 text-sm hidden lg:flex">
@@ -70,7 +74,7 @@ const Header = () => {
           Gestão de Redes Sociais
         </Link>
         <a
-          href="https://wa.me/5531998855602"
+          href="https://wa.link/yckqvx"
           target="_blank"
           className="font-semibold ml-2 hover:cursor-pointer bg-lime-600 hover:bg-lime-700 p-2 rounded text-white"
         >
@@ -116,7 +120,7 @@ const Header = () => {
                 </CommandItem>
                 <CommandItem className="py-4">
                   <a
-                    href="https://wa.me/5531985597586"
+                    href="https://wa.link/yckqvx"
                     target="_blank"
                     className="w-full"
                   >

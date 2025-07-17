@@ -1,7 +1,5 @@
 import Image from "next/image";
 import WebDevelopmentImage from "@/public/images/web_development.png";
-import { Button } from "@/components/ui/button";
-import WhatsAppIcon from "@/public/svg-icons/whatsapp_icon.svg";
 import WebDevelopmentCarousel from "./WebDevelopmentCarousel";
 import WebDevelopmentCards from "./WebDevelopmentCards";
 
@@ -62,7 +60,7 @@ const WebDevelopment = () => {
       </p>
       <div className="px-4 my-5 text-center">
         <a
-          href="https://wa.me/5531998555602"
+          href="https://wa.link/8f1j92"
           target="_blank"
           className="bg-green-700 hover:bg-green-800 hover:cursor-pointer hover:text-white py-2 px-4 font-medium rounded text-white text-xl"
         >

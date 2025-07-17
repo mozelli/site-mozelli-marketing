@@ -64,7 +64,7 @@ const TrafficManagement = () => {
       </p>
       <div className="px-4 my-5 text-center">
         <a
-          href="https://wa.me/5531998555602"
+          href="https://wa.link/f814bd"
           target="_blank"
           className="bg-green-700 hover:bg-green-800 hover:cursor-pointer hover:text-white py-2 px-4 font-medium rounded text-white text-xl"
         >
@@ -76,77 +76,3 @@ const TrafficManagement = () => {
 };
 
 export default TrafficManagement;
-
-/**
- <div className="mt-5 mx-15">
-        <TrafficManagementCarousel />
-      </div>
-      <h3 className="mt-10 text-2xl px-4 text-center text-primary">
-        Pronto para Acelerar o Crescimento do seu Negócio?
-      </h3>
-      <p className="px-4 mt-5 text-center">
-        Chame agora no WhatsApp e converse com um consultor!
-      </p>
-      <div className="px-4 my-5">
-        <Button
-          variant="outline"
-          className="bg-green-700 w-full py-5 text-neutral-50 text-xl"
-        >
-          WhatsApp
-          <Image
-            src={WhatsAppIcon}
-            alt="Ícone do WhatsApp"
-            width={24}
-            height={24}
-            className="ml-4"
-          />
-        </Button>
-      </div>
- */
-
-/**
- <Card className="mx-4 mt-5">
-        <CardHeader>
-          <CardTitle className="text-amber-600">
-            Mais Visibilidade Instantânea
-          </CardTitle>
-        </CardHeader>
-        <CardContent>
-          Apareça no topo das buscas e nos feeds do seu público, garantindo que
-          sua marca seja vista por quem realmente importa.
-        </CardContent>
-      </Card>
-      <Card className="mx-4 mt-5">
-        <CardHeader>
-          <CardTitle className="text-amber-600">
-            Leads e Vendas Qualificadas
-          </CardTitle>
-        </CardHeader>
-        <CardContent>
-          Atraímos pessoas que já estão buscando o que você oferece, aumentando
-          exponencialmente as chances de conversão.
-        </CardContent>
-      </Card>
-      <Card className="mx-4 mt-5">
-        <CardHeader>
-          <CardTitle className="text-amber-600">
-            Resultados Mensuráveis
-          </CardTitle>
-        </CardHeader>
-        <CardContent>
-          Saiba exatamente para onde seu investimento está indo e qual o retorno
-          que ele está gerando. Nossas campanhas são otimizadas constantemente
-          para o melhor desempenho.
-        </CardContent>
-      </Card>
-      <Card className="mx-4 mt-5">
-        <CardHeader>
-          <CardTitle className="text-amber-600">Otimização Contínua</CardTitle>
-        </CardHeader>
-        <CardContent>
-          Analisamos dados, testamos novas estratégias e ajustamos suas
-          campanhas para garantir que você esteja sempre à frente da
-          concorrência, maximizando seu ROI (Retorno Sobre o Investimento).
-        </CardContent>
-      </Card>
- */

@@ -65,7 +65,7 @@ const SocialMedia = () => {
       </p>
       <div className="px-4 my-5 text-center">
         <a
-          href="https://wa.me/5531998555602"
+          href="https://wa.link/v6ydhu"
           target="_blank"
           className="bg-green-700 hover:bg-green-800 hover:cursor-pointer hover:text-white py-2 px-4 font-medium rounded text-white text-xl"
         >
@@ -77,65 +77,3 @@ const SocialMedia = () => {
 };
 
 export default SocialMedia;
-
-/**
- <Card className="mx-4 mt-5">
-        <CardHeader>
-          <CardTitle className="text-primary">
-            Presença Marcante e Relevante
-          </CardTitle>
-        </CardHeader>
-        <CardContent>
-          Não basta estar nas redes sociais, é preciso se destacar! Criamos
-          conteúdo que ressoa com seu público, mantendo sua marca ativa e sempre
-          lembrada.
-        </CardContent>
-      </Card>
-      <Card className="mx-4 mt-5">
-        <CardHeader>
-          <CardTitle className="text-primary">
-            Engajamento que Converte
-          </CardTitle>
-        </CardHeader>
-        <CardContent>
-          Vamos além das curtidas. Nosso objetivo é gerar interação real,
-          construindo um relacionamento sólido com seus seguidores que se traduz
-          em confiança e, consequentemente, em vendas.
-        </CardContent>
-      </Card>
-      <Card className="mx-4 mt-5">
-        <CardHeader>
-          <CardTitle className="text-primary">
-            Construção de Autoridade
-          </CardTitle>
-        </CardHeader>
-        <CardContent>
-          Posicionamos seu negócio como referência no seu segmento,
-          compartilhando informações valiosas e demonstrando seu expertise.
-        </CardContent>
-      </Card>
-      <Card className="mx-4 mt-5">
-        <CardHeader>
-          <CardTitle className="text-primary">
-            Crescimento Sustentável
-          </CardTitle>
-        </CardHeader>
-        <CardContent>
-          Através de estratégias orgânicas e pagas, expandimos seu alcance e
-          atraímos novos seguidores que realmente se importam com o que você
-          oferece.
-        </CardContent>
-      </Card>
-      <Card className="mx-4 mt-5">
-        <CardHeader>
-          <CardTitle className="text-primary">
-            Economia de Tempo e Recursos
-          </CardTitle>
-        </CardHeader>
-        <CardContent>
-          Gerenciar redes sociais exige tempo, conhecimento e dedicação. Deixe
-          essa tarefa com especialistas e foque no que você faz de melhor:
-          gerenciar seu negócio.
-        </CardContent>
-      </Card>
- */
